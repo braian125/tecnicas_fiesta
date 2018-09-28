@@ -411,7 +411,7 @@ public class FiestaGui extends javax.swing.JFrame {
         int indiceResultado = buscarNombre(jTextField2.getText());
         String nombre, apellido,identificacion,genero;
        if  (indiceResultado ==0){
-             JOptionPane.showMessageDialog(null,"Bailador no encontrado", "No existe", JOptionPane.ERROR_MESSAGE);   
+             //JOptionPane.showMessageDialog(null,"Bailador no encontrado", "No existe", JOptionPane.ERROR_MESSAGE);   
        }else{
            
           identificacion = bailadores[indiceResultado].getIdentificacion();
